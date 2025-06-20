@@ -19,7 +19,7 @@ dynamic = ["version"]
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["ddlcloud_generator_gke"]
+include = ["ddlcloud_tf_base_schemas"]
 namespaces = false
 
 [tool.black]
