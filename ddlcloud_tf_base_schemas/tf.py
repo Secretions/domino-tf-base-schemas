@@ -23,6 +23,7 @@ class BaseTFOutput(BaseModel):
 
 class TFSet(BaseModel):
     configs: dict
+    module_id: str
     version: str
 
 
